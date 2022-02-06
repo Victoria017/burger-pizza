@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html {
+  height: 100%;
+}
+body {
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 0px 200px;
+  background-image: url(images/bg-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 835px;
+  background-origin: content-box;
+  background-position: center;
+}
+.header-logo {
+  background-image: url(images/fast-food-logo.png);
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+.header-menu {
+  display: flex;
+  width: calc(100% - 165px - 100px);
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+}
+.list {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+.list:hover {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+}
+.header-button {
+  width: 165px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-style {
+  display: flex;
+  height: 100px;
+}
+.button {
+  width: 165px;
+  height: 49px;
+  background: #f6762c;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.content {
+  width: 100%;
+}
+.block1 {
+  height: 550px;
+  width: 100%;
+  display: flex;
+}
+
+.block1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40%;
+  margin-left: 30px;
+
+}
+.text1 {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+.text2 {
+  font-weight: 500;
+  font-size: 57.33px;
+  line-height: 67px;
+  color: #ffffff;
+}
+.text3 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 15px;
+}
+
+.block2 {
+  width: 100%;
+  height: 543px;
+  background: #1c1c1c;
+  display: flex;
+  justify-content: center;
+}
+
+.food-list {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.foods {
+  width: 263px;
+  height: 323px;
+}
+.image-food {
+  width: 236px;
+  height: 175px;
+}
+.food-bg {
+  background-color: #312f30;
+  height: 148px;
+  width: 236px;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+  margin-top: -4px;
+}
+.food-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.food-name2 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.block3 {
+  background-color: #312f30;
+  width: 100%;
+  height: 543px;
+  padding: 0 200px;
+  display: flex;
+}
+.king-burger {
+  background-image: url(images/king_burger.png);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 499px;
+  background-size: contain;
+  background-position: right;
+}
+
+.king {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 52px;
+  color: white;
+}
+.burger {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 15px 0px;
+  max-width: 260px;
+}
+
+.burger-name {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #f6762c;
+}
+.price span {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-decoration-line: line-through;
+  color: rgba(246, 118, 44, 0.5);
+}
+.block4 {
+  width: 1140px;
+  height: 630px;
+  display: flex;
+  margin: 150px auto 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.set-food {
+  width: 555px;
+  height: 300px;
+  position: absolute;
+  z-index: -1;
+}
+.product-set {
+  width: 555px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.product-listen {
+  justify-content: end;
+}
+.food-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.food-price2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.price-set-left {
+  width: 246px;
+  height: 175px;
+  float: right;
+  margin: 62px 5px;
+}
+.price-set-right {
+  width: 246px;
+  height: 175px;
+  float: left;
+  margin: 62px 20px;
+}
+.block5 {
+  width: 1140px;
+  display: flex;
+  margin: auto;
+  padding: 150px 0;
+}
+.ellipse-big {
+  width: 346px;
+  height: 346px;
+  border: 1px dashed #f6762c;
+  border-radius: 180px;
+  position: absolute;
+}
+.ellipse-small {
+  width: 230px;
+  height: 230px;
+  border: 1px dashed #f6762c;
+  border-radius: 180px;
+  margin: 58px;
+}
+.feedback-left {
+  width: 50%;
+  height: 346px;
+  position: relative;
+  padding-left: 100px;
+}
+.shadow-girl {
+  filter: blur(37px);
+  box-shadow: 0px 4px 25px 40px rgba(246, 118, 44, 0.05);
+  background-color: rgba(246, 118, 44, 0.2);
+}
+.center-girl {
+  background-image: url(images/center-girl.png);
+  background-repeat: no-repeat;
+  width: 242px;
+  height: 242px;
+  background-size: 100%;
+  margin: -2px;
+}
+
+.top-boy {
+  background-image: url(images/top-boy.png);
+  background-repeat: no-repeat;
+  width: 85px;
+  height: 85px;
+  background-size: 100%;
+  margin-top: 15px;
+}
+.bottom-boy {
+  background-image: url(images/bottom-boy.png);
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 72px;
+  background-size: 100%;
+  margin-left: 25px;
+}
+.top-girl {
+  background-image: url(images/top-girl.png);
+  background-repeat: no-repeat;
+  width: 71px;
+  height: 71px;
+  background-size: 100%;
+}
+.elips-boy {
+  width: 100px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  float: left;
+}
+
+.elips-girl {
+  float: right;
+  width: 100px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-girl {
+  background-image: url(images/bottom-girl.png);
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  background-size: 100%;
+  margin-top: 150px;
+  margin-left: 25px;
+}
+.feedback-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img-feedback {
+  width: 47px;
+  height: 46px;
+}
+.feedback-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  width: 340px;
+  margin: 15px 0;
+}
+.feedback-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.amirican {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.block6 {
+  width: 100%;
+  height: 170px;
+  background: #312f30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.download-menu {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: white;
+  width: 570px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.download-button {
+  width: 570px;
+}
+
+.footer {
+  width: 100%;
+  height: 380px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.img-mail {
+  width: 12px;
+  height: 12px;
+}
+.fastfood-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.our-menu {
+  width: 15%;
+}
+ul {
+  list-style: none;
+  text-align: left;
+}
+.footer-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+}
+li {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 30px;
+}
+.img-social {
+  width: 15px;
+  height: 15px;
+  margin-left: 22px;
+}
